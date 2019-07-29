@@ -1,0 +1,1 @@
+export { Image3DModal } from "./image3dmodal";
