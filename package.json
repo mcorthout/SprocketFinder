@@ -9,7 +9,7 @@
     "lint": "tslint 'src/**/*.ts*' || exit 0 "
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "core-js": "^3.0.1",
     "node-polyglot": "^2.3.0",
     "react": "^16.8.6",
