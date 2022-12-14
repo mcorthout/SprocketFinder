@@ -25,7 +25,7 @@
     "node_modules",
     "dist",
     "webpack.config.js",
-	"js"
+	  "js"
   ],
   "types": [
     "typePatches"

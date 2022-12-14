@@ -1,15 +1,38 @@
-﻿html {
+﻿@font-face {
+    font-family: t-reg;
+    src: url(../fonts/texgyreheros-regular-webfont.eot);
+    src: url(../fonts/texgyreheros-regular-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/texgyreheros-regular-webfont.woff) format("woff"), url(../fonts/texgyreheros-regular-webfont.ttf) format("truetype"), url(../fonts/texgyreheros-regular-webfont.svg#texgyreherosregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: t-ita;
+    src: url(../fonts/texgyreheros-italic-webfont.eot);
+    src: url(../fonts/texgyreheros-italic-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/texgyreheros-italic-webfont.woff) format("woff"), url(../fonts/texgyreheros-italic-webfont.ttf) format("truetype"), url(../fonts/texgyreheros-italic-webfont.svg#texgyreherositalic) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: t-bit;
+    src: url(../fonts/texgyreheros-bolditalic-webfont.eot);
+    src: url(../fonts/texgyreheros-bolditalic-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/texgyreheros-bolditalic-webfont.woff) format("woff"), url(../fonts/texgyreheros-bolditalic-webfont.ttf) format("truetype"), url(../fonts/texgyreheros-bolditalic-webfont.svg#texgyreherosbold_italic) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+html {
     font-size: 62.5%
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    padding: 2em;
+    font-family: t-reg;
+    color: #fff
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-ita;
     font-size: 3.4rem;
     line-height: 4.6rem;
     margin-top: 0
@@ -21,7 +44,7 @@ h2 {
 }
 
 h2, h3 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-ita;
     margin: 3rem 0 2rem
 }
 
@@ -31,7 +54,7 @@ h3 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-reg;
     font-size: 1.8rem;
     line-height: 3rem
 }
@@ -1755,7 +1778,7 @@ aside {
     .brands .headline {
         text-align: center;
         font-size: 1.5rem;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: t-reg;
         margin: 1.2rem 0 1rem 0;
         opacity: 0.5;
     }
@@ -1793,7 +1816,7 @@ aside {
 }
 
 .introText {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-ita;
     width: 50%;
     margin: 10rem 0;
     text-align: center
@@ -1956,7 +1979,7 @@ div.facebook {
     background-color: #666;
     width: 50%;
     font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-ita;
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2564,7 +2587,7 @@ nav#social {
     }
 
 .featureText {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-ita;
     color: #fff;
     font-size: 1.8rem;
     background-color: #2a2a2a;
@@ -2688,7 +2711,7 @@ ul.special {
 
     ul.special li {
         font-size: 1.8rem;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: t-ita;
         margin-bottom: 1.2rem;
         padding-left: 4rem;
         position: relative
@@ -2921,7 +2944,7 @@ address {
 }
 
 .org {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: t-ita;
     font-size: 3.2rem;
     text-transform: uppercase;
     margin-bottom: 2rem
@@ -3127,7 +3150,7 @@ address {
 }
 
     .result a {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: t-ita;
         color: #fff
     }
 

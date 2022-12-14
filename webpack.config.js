@@ -6,7 +6,7 @@ const merge = require("webpack-merge");
 const common = merge([
     {
         entry: {
-            app: './src/app.tsx'
+            sprocketapp: './src/app.tsx'
         },
         output: {
             path: path.resolve(__dirname, 'dist/js'),
@@ -21,7 +21,7 @@ const common = merge([
                 cacheGroups: {
                     commons: {
                         test: /[\\/]node_modules[\\/]/,
-                        name: 'vendor',
+                        name: 'sprocketvendor',
                         chunks: 'all'
                     }
                 }
