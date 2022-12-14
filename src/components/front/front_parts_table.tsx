@@ -116,10 +116,10 @@ export class FrontPartsTable extends React.Component<IFrontPartsTableProps, IFro
                 <td>{p.Description}</td>               
                 <td>{p.Ean}</td>
                 <td style={{ textAlign: "center" }}>
-                    <input type="image" key={p.PartId.toString() + "_info"} alt="info" style={{ verticalAlign: "middle" }} src="https://afam.com/wp-content/themes/netAfam/afamparts/info.png" onClick={() => this.sprocketInfo(p)} />
+                    <input type="image" key={p.PartId.toString() + "_info"} alt="info" style={{ verticalAlign: "middle" }} src="https://service.afam.com/afamgroup/images/info.png" onClick={() => this.sprocketInfo(p)} />
                 </td>
                 <td style={{ textAlign: "center" }}>
-                    <input type="image" key={p.PartId.toString() + "_info"} alt="info" style={{ verticalAlign: "middle" }} src="https://afam.com/wp-content/themes/netAfam/afamparts/bike.png" onClick={() => this.sprocketReverse(p)} />
+                    <input type="image" key={p.PartId.toString() + "_info"} alt="info" style={{ verticalAlign: "middle" }} src="https://service.afam.com/afamgroup/images/bike.png" onClick={() => this.sprocketReverse(p)} />
                 </td>
             </tr>
         );
