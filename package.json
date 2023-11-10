@@ -9,7 +9,7 @@
     "lint": "tslint 'src/**/*.ts*' || exit 0 "
   },
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "core-js": "^3.0.1",
     "kind-of": ">=6.0.3",
     "minimist": ">=1.2.6",
