@@ -2,7 +2,9 @@
 
 This project illustrates how to find an AFAM motorbike sprocket based on a number of technical parameters such as thickness, pitch, number of mounting holes, etc...
 
-Demo: https://afam-group.com/afam-sprockets-product-finder
+Used on the actual site: https://afam-group.com/afam-sprockets-product-finder
+
+Demo: https://mcorthout.github.io/SprocketFinder/
 
 ## Audience
 
