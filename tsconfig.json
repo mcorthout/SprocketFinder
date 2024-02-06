@@ -1,13 +1,9 @@
 {
   "compilerOptions": {
-    //"forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
     "experimentalDecorators": true,
-    //"noUnusedLocals": true,
-    //"noImplicitAny": true,
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,

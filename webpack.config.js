@@ -32,7 +32,6 @@ const common = merge([
 
 const production = merge([
     {
-        devtool: 'none',
         module: {
             rules: [
                 //{ test: /\.css$/, use: 'css-loader' },
